@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'Heavitas';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./assets/fonts/Heavitas.ttf'); /* IE9 Compat Modes */
+  src: url('./assets/fonts/Heavitas.ttf') format('truetype') /* Safari, Android, iOS */
+}
+
 body {
   margin: 0;
   padding: 0;
