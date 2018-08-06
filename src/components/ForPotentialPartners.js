@@ -16,7 +16,10 @@ const styles = theme => ({
   },
   body: {
     padding: '10px 100px',
-    textAlign: 'center'
+    textAlign: 'center',
+    [theme.breakpoints.down('sm')]: {
+      padding: 10
+    }
   },
   button: {
     backgroundColor: theme.palette.secondary.main,

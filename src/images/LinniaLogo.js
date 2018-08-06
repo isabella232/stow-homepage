@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 
+const styles = {};
+
 class LinniaLogo extends Component {
   render() {
     const { fill, style } = this.props;
@@ -76,4 +78,4 @@ LinniaLogo.propTypes = {
   style: PropTypes.object
 };
 
-export default withStyles()(LinniaLogo);
+export default withStyles(styles)(LinniaLogo);

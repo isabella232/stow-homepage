@@ -5,6 +5,7 @@ import TwitterLogo from './../images/TwitterLogo';
 import GithubLogo from './../images/GithubLogo';
 import InstagramLogo from './../images/InstagramLogo';
 import TelegramLogo from './../images/TelegramLogo';
+import RedditLogo from './../images/RedditLogo';
 
 const footerHeight = '60px';
 const margin = '34px';
@@ -16,13 +17,20 @@ const styles = theme => ({
     left: 0,
     bottom: 0,
     width: '100%',
-    height: footerHeight
+    [theme.breakpoints.down('sm')]: {
+      textAlign: 'center'
+    }
+
   },
   copy: {
     color: theme.palette.white,
     display: 'inline',
     lineHeight: footerHeight,
-    marginLeft: margin
+    marginLeft: margin,
+    [theme.breakpoints.down('sm')]: {
+      marginLeft: 0,
+      lineHeight: '40px'
+    }
   },
   icon: {
     display: 'inline',
@@ -36,7 +44,12 @@ const styles = theme => ({
     display: 'inline',
     float: 'right',
     lineHeight: footerHeight,
-    marginRight: margin
+    marginRight: margin,
+    [theme.breakpoints.down('sm')]: {
+      width: '100%',
+      textAlign: 'center',
+      marginRight: 0
+    }
   }
 });
 
@@ -49,10 +62,21 @@ class Footer extends Component {
           © 2018 ConsenSys, AG
         </Typography>
         <div className={classes.buttonBar}>
-          <TwitterLogo classes={{ root: classes.icon }} />
-          <GithubLogo classes={{ root: classes.icon }} />
-          <InstagramLogo classes={{ root: classes.icon }} />
-          <TelegramLogo classes={{ root: classes.icon }} />
+          <a href="https://twitter.com/linniaproject">
+            <TwitterLogo classes={{ root: classes.icon }} />
+          </a>
+          <a href="https://github.com/ConsenSys/linnia-smart-contracts">
+            <GithubLogo classes={{ root: classes.icon }} />
+          </a>
+          <a href="https://www.instagram.com/linniaproject">
+            <InstagramLogo classes={{ root: classes.icon }} />
+          </a>
+          <a href="t.me/NYCBlockchainDevs">
+            <TelegramLogo classes={{ root: classes.icon }} />
+          </a>
+          <a href="https://www.reddit.com/r/Linnia/">
+            <RedditLogo classes={{ root: classes.icon }} />
+          </a>
         </div>
       </footer>
     );

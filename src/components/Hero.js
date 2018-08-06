@@ -2,12 +2,14 @@ import React, { Component } from 'react';
 import { withStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
+import { Link } from 'react-scroll';
+import { gettingStartedRoute } from './../routes';
 
 const styles = theme =>  ({
   heroBox: {
     maxWidth: 600,
     textAlign: 'left',
-    [theme.breakpoints.down('sm')]: {
+    [theme.breakpoints.down('md')]: {
       textAlign: 'center',
       margin: 'auto',
       marginTop: 100,
@@ -33,10 +35,21 @@ class Hero extends Component {
         <Typography variant='display2'>
           THE INTERNET THAT WAS PROMISED
         </Typography>
-        <Typography className={`${classes.heroText} ${classes.heroCaption}`} variant='body2'>
+        <Typography
+          className={`${classes.heroText} ${classes.heroCaption}`}
+          variant='body2'
+        >
           Liberate your users' digital identities by building on top of the Linnia Protocol. Securely store and share data for your users in minutes by using our components and SDK.
         </Typography>
-        <Button className={classes.ctaButton}>Get Started</Button>
+        <Link
+          to={gettingStartedRoute.key}
+          smooth={true}
+          duration={500}
+        >
+          <Button className={classes.ctaButton}>
+            Get Started
+          </Button>
+        </Link>
       </div>
     );
   }

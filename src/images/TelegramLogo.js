@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import { withStyles } from '@material-ui/core/styles';
 
+const styles = {
+  root: {}
+};
+
 class TelegramLogo extends Component {
   render() {
     const { classes } = this.props;
@@ -21,4 +25,4 @@ class TelegramLogo extends Component {
   }
 }
 
-export default withStyles()(TelegramLogo);
+export default withStyles(styles)(TelegramLogo);

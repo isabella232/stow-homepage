@@ -1,48 +1,46 @@
-import Home from './components/Home';
-import GettingStarted from './components/GettingStarted';
-import ForDevelopers from './components/ForDevelopers';
-import ForUsers from './components/ForUsers';
-import ForPotentialPartners from './components/ForPotentialPartners';
-import AboutUs from './components/AboutUs';
 import LinniaLogo from './images/LinniaLogo';
 import React from 'react';
 
 const height = 35;
 const width = 35;
 
+export const homeRoute = {
+  title: <LinniaLogo style={{ height, width }} />,
+  key: 'home'
+};
+
+export const gettingStartedRoute = {
+  title: 'Getting Started',
+  key: 'getting-started'
+};
+
+export const forDevelopersRoute = {
+  title: 'Developers',
+  key: 'for-developers'
+};
+
+export const forUsersRoute = {
+  title: 'Users',
+  key: 'for-users'
+};
+
+export const forPartnersRoute = {
+  title: 'Partners',
+  key: 'for-partners'
+};
+
+export const aboutUsRoute = {
+  title: 'About Us',
+  key: 'about-us'
+}
+
 const routes = [
-  {
-    path: '/',
-    exact: true,
-    title: <LinniaLogo style={{ height, width }} />,
-    component: Home,
-    logo: true
-  },
-  {
-    title: 'Getting Started',
-    path: '/getting-started',
-    component: GettingStarted
-  },
-  {
-    title: 'Developers',
-    path: '/for-developers',
-    component: ForDevelopers
-  },
-  {
-    title: 'Users',
-    path: '/for-users',
-    component: ForUsers
-  },
-  {
-    title: 'Partners',
-    path: '/for-potential-partners',
-    component: ForPotentialPartners
-  },
-  {
-    title: 'About Us',
-    path: '/about-us',
-    component: AboutUs
-  }
+  homeRoute,
+  gettingStartedRoute,
+  forDevelopersRoute,
+  forUsersRoute,
+  forPartnersRoute,
+  aboutUsRoute,
 ];
 
 export default routes;
