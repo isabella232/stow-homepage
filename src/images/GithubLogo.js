@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import { withStyles } from '@material-ui/core/styles';
 
+const styles = {
+  root: {}
+};
+
 class GithubLogo extends Component {
   render() {
     const { classes } = this.props;
@@ -24,4 +28,4 @@ class GithubLogo extends Component {
   }
 }
 
-export default withStyles()(GithubLogo);
+export default withStyles(styles)(GithubLogo);

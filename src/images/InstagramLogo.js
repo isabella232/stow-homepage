@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import { withStyles } from '@material-ui/core/styles';
 
+const styles = {
+  root: {}
+};
+
 class InstagramLogo extends Component {
   render() {
     const { classes } = this.props;
@@ -23,4 +27,4 @@ class InstagramLogo extends Component {
   }
 }
 
-export default withStyles()(InstagramLogo);
+export default withStyles(styles)(InstagramLogo);

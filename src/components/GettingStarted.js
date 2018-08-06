@@ -22,6 +22,9 @@ const styles = theme => ({
     backgroundColor: theme.palette.secondary.main,
     color: theme.palette.white,
     marginTop: 20
+  },
+  item: {
+      marginBottom: 40
   }
 });
 
@@ -34,7 +37,6 @@ class GettingStarted extends Component {
         <CardContent color="primary">
           <Grid
             container
-            classes={{ root: classes.container}}
             spacing={24}
           >
             <Grid item xs={12}>
@@ -45,7 +47,7 @@ class GettingStarted extends Component {
                 GETTING STARTED
               </Typography>
             </Grid>
-            <Grid item xs={12} md={4}>
+            <Grid item xs={12} sm={6} md={4} className={classes.item}>
               <div className={classes.copy}>
                 <Typography variant='title'>
                   LinniaJS
@@ -58,7 +60,7 @@ class GettingStarted extends Component {
                 </Button>
               </div>
             </Grid>
-            <Grid item xs={12} md={4}>
+            <Grid item xs={12} sm={6} md={4} className={classes.item}>
               <div className={classes.copy}>
                 <Typography variant='title'>
                   Linnia Box
@@ -71,7 +73,7 @@ class GettingStarted extends Component {
                 </Button>
               </div>
             </Grid>
-            <Grid item xs={12} md={4}>
+            <Grid item xs={12} sm={6} md={4} className={classes.item}>
               <div className={classes.copy}>
                 <Typography variant='title'>
                   LINNIA NODE

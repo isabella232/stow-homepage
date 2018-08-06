@@ -7,6 +7,9 @@ const styles = theme => ({
   copy: {
     color: theme.palette.white,
     padding: theme.spacing.unit * 2,
+  },
+  subheading: {
+    marginBottom: 40
   }
 });
 
@@ -16,15 +19,15 @@ class ForUsers extends Component {
 
     return (
       <Grid container spacing={24} className={classes.container}>
-        <Grid item xs={12} sm={4}>
+        <Grid item xs={12} md={4}>
           <Typography variant='display2' className={classes.copy}>
             Liberating for Users
           </Typography>
         </Grid>
-        <Grid xs={12} container sm={8}>
+        <Grid xs={12} item container md={8}>
           <Grid item xs={12}>
-            <Typography variant='body1' className={classes.copy}>
-              Taking the jump to be a blockchain developer can be intimidating, and, quite frankly, painful. The Linnia Protocol makes build on top of the blockchain easy!
+            <Typography variant='body1' className={`${classes.copy} ${classes.subheading}`}>
+              Internet users have been trapped and exploited by their service providers for too long! Linnia provides them the means to free themselves.
             </Typography>
           </Grid>
           <Grid item xs={12} sm={6}>

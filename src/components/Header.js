@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import AppBar from '@material-ui/core/AppBar';
-import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
-import routes from './../routes';
+import routes, { homeRoute } from './../routes';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 import Toolbar from '@material-ui/core/Toolbar';
 import MenuItem from '@material-ui/core/MenuItem';
 import Menu from '@material-ui/core/Menu';
+import { Link } from 'react-scroll';
 
 const styles = theme => ({
   root: {
@@ -37,7 +37,7 @@ const styles = theme => ({
     }
   },
   hide: {
-    [theme.breakpoints.down('sm')]: {
+    [theme.breakpoints.down('xs')]: {
       display: 'none'
     }
   }
@@ -64,17 +64,25 @@ class Header extends Component {
     return (
       <div className={classes.root}>
         <AppBar position="sticky" color="primary">
-        <Toolbar>
-          <Tabs className={classes.tabs}>
-            {routes.map(route => <Tab
-              label={route.title}
-              href={route.path}
-              classes={{
-                root: `${classes.tab} ${!route.logo && classes.hide}`,
-                labelContainer: classes.tabLabelContainer
-              }}
-            />)}
-          </Tabs>
+        <Toolbar className={classes.tabs}>
+            {routes.map((route, i) => (
+              <Link
+                to={route.key}
+                smooth={true}
+                duration={500}
+                key={i}
+                className={classes.hide}
+              >
+              <Tab
+                label={route.title}
+                href={route.path}
+                classes={{
+                  root: `${classes.tab}`,
+                  labelContainer: classes.tabLabelContainer
+                }}
+              />
+            </Link>
+          ))}
           <IconButton
             className={classes.menuButton}
             color="inherit"
@@ -99,7 +107,19 @@ class Header extends Component {
               open={open}
               onClose={this.handleClose}
             >
-              {routes.filter(route => !route.logo).map(route => <MenuItem >{route.title}</MenuItem>)}
+              {routes
+                .filter(route => route.key !== homeRoute.key)
+                .map((route, i) => (
+                  <Link
+                    to={route.key}
+                    smooth={true}
+                    duration={500}
+                    key={i}
+                  >
+                    <MenuItem key={i}>{route.title}</MenuItem>
+                  </Link>
+                )
+              )}
             </Menu>
           </Toolbar>
         </AppBar>
