@@ -7,10 +7,6 @@ import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 
 const styles = theme => ({
-  item: {
-    padding: theme.spacing.unit * 2,
-    textAlign: 'center'
-  },
   copy: {
     textAlign: 'center'
   },
@@ -24,7 +20,7 @@ const styles = theme => ({
     marginTop: 20
   },
   item: {
-      marginBottom: 40
+    marginBottom: 40
   }
 });
 
