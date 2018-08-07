@@ -68,7 +68,7 @@ class AboutUs extends Component {
           <Grid item xs={12} sm={6} md={4}>
             <img
               className={classes.profilePicture}
-              src='max-blaushild.jpg'
+              src='evin-mcmullen.png'
               alt='Evin McMullen'
             />
             <Typography variant='title'>Evin McMullen</Typography>
@@ -77,7 +77,7 @@ class AboutUs extends Component {
           <Grid item xs={12} sm={6} md={4}>
             <img
               className={classes.profilePicture}
-              src='max-blaushild.jpg'
+              src='godfrey-hobbs.jpeg'
               alt='Godfrey Hobbs'
             />
             <Typography variant='title'>Godfrey Hobbs</Typography>
@@ -95,7 +95,7 @@ class AboutUs extends Component {
           <Grid item xs={12} sm={6} md={4}>
             <img
               className={classes.profilePicture}
-              src='max-blaushild.jpg'
+              src='anuj-shah.jpeg'
               alt='Anuj Shah'
             />
             <Typography variant='title'>Anuj Shah</Typography>
@@ -104,7 +104,7 @@ class AboutUs extends Component {
           <Grid item xs={12} sm={6} md={4}>
             <img
               className={classes.profilePicture}
-              src='max-blaushild.jpg'
+              src='david-rhodus.jpeg'
               alt='David Rhodus'
             />
             <Typography variant='title'>David Rhodus</Typography>
@@ -113,7 +113,7 @@ class AboutUs extends Component {
           <Grid item xs={12} sm={6} md={4}>
             <img
               className={classes.profilePicture}
-              src='max-blaushild.jpg'
+              src='anthony-albertorio.jpeg'
               alt='Anthony Albertorio'
             />
             <Typography variant='title'>Anthony Albertorio</Typography>
@@ -122,7 +122,7 @@ class AboutUs extends Component {
           <Grid item xs={12} sm={6} md={4}>
             <img
               className={classes.profilePicture}
-              src='max-blaushild.jpg'
+              src='vicente-rotman.jpeg'
               alt='Vicente Rotman'
             />
             <Typography variant='title'>Vicente Rotman</Typography>

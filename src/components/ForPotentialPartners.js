@@ -45,7 +45,11 @@ class ForPotentialPartners extends Component {
           </Typography>
         </CardContent>
         <CardActions className={classes.actions}>
-          <Button className={classes.button}>Work with Us</Button>
+          <a href="mailto:evin.mcmullen@consensys.net">
+            <Button className={classes.button}>
+              Work with Us
+            </Button>
+          </a>
         </CardActions>
       </Card>
     );
