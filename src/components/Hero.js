@@ -39,7 +39,7 @@ class Hero extends Component {
           className={`${classes.heroText} ${classes.heroCaption}`}
           variant='body2'
         >
-          Liberate your users' digital identities by building on top of the Linnia Protocol. Securely store and share data for your users in minutes by using our components and SDK.
+          Liberate your users' digital identities by building decentralized applications on top of the Linnia Protocol. Securely store and share data for your users in minutes with our components and SDK.
         </Typography>
         <Link
           to={gettingStartedRoute.key}

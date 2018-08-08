@@ -27,7 +27,7 @@ class ForUsers extends Component {
         <Grid xs={12} item container md={8}>
           <Grid item xs={12}>
             <Typography variant='body1' className={`${classes.copy} ${classes.subheading}`}>
-              Internet users have been trapped and exploited by their service providers for too long! Linnia provides them the means to free themselves.
+              Internet users have been trapped and exploited by their service providers for too long! Linnia provides data freedom and independence for all.
             </Typography>
           </Grid>
           <Grid item xs={12} sm={6}>
@@ -43,7 +43,7 @@ class ForUsers extends Component {
              EARN YOUR FAIR SHARE
             </Typography>
             <Typography variant='body1' className={classes.copy}>
-              Your data is valuable. Get paid for it! A whole sea of developers are waiting to act as brokers between you and data hungry consumers.
+              Your data is valuable. Get paid for it! Do amazing things with it!
             </Typography>
           </Grid>
           <Grid item xs={12} sm={6} className={classes.container}>

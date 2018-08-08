@@ -23,8 +23,8 @@ const styles = theme => ({
   },
   container: {
     [theme.breakpoints.down('md')]: {
-    marginTop: 70
-  }
+      marginTop: 70
+    }
   }
 });
 
@@ -46,7 +46,7 @@ class AboutUs extends Component {
         </Grid>
         <Grid item xs={12} md={8}>
           <Typography className={classes.item} variant='title'>
-            Linnia wants to subvert the digital data ownership paradigm by giving users ownership of their digital footprint.
+            Linnia provides application developers with the tools to quickly and easily build secure, data-rich decentralized application without prior blockchain knowledge. The Linnia Protocol also subverts the digital data ownership paradigm by giving users ownership of their digital footprint.
           </Typography>
         </Grid>
         <Grid item xs={12} md={4}>
@@ -56,7 +56,7 @@ class AboutUs extends Component {
         </Grid>
         <Grid item xs={12} md={8}>
           <Typography className={classes.item} variant='title'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tortor nunc, egestas sed est sit amet, posuere tincidunt mi. Nunc a elit nec nunc ultrices pretium. Ut finibus et elit eget vehicula.
+            We came together at ConsenSys, the world’s foremost Ethereum venture production studio. Our work is funded by ConsenSys Labs.
           </Typography>
         </Grid>
         <Grid item xs={12} md={4}>
@@ -71,8 +71,14 @@ class AboutUs extends Component {
               src='evin-mcmullen.png'
               alt='Evin McMullen'
             />
-            <Typography variant='title'>Evin McMullen</Typography>
-            <Typography variant='subheading'>Product</Typography>
+            <a
+              href="https://www.linkedin.com/in/evin-mcmullen/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Typography variant='title'>Evin McMullen</Typography>
+            </a>
+            <Typography variant='subheading'>Product Lead</Typography>
           </Grid>
           <Grid item xs={12} sm={6} md={4}>
             <img
@@ -80,8 +86,14 @@ class AboutUs extends Component {
               src='godfrey-hobbs.jpeg'
               alt='Godfrey Hobbs'
             />
-            <Typography variant='title'>Godfrey Hobbs</Typography>
-            <Typography variant='subheading'>Software Engineer</Typography>
+            <a
+              href="https://www.linkedin.com/in/godfreyhobbs/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Typography variant='title'>Godfrey Hobbs</Typography>
+            </a>
+            <Typography variant='subheading'>Lead Engineer</Typography>
           </Grid>
           <Grid item xs={12} sm={6} md={4}>
             <img
@@ -89,8 +101,14 @@ class AboutUs extends Component {
               src='max-blaushild.jpg'
               alt='Max Blaushild'
             />
-            <Typography variant='title'>Max Blaushild</Typography>
-            <Typography variant='subheading'>Software Engineer</Typography>
+            <a
+              href="https://www.linkedin.com/in/maxblaushild/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Typography variant='title'>Max Blaushild</Typography>
+            </a>
+            <Typography variant='subheading'>Senior Software Engineer</Typography>
           </Grid>
           <Grid item xs={12} sm={6} md={4}>
             <img
@@ -98,7 +116,13 @@ class AboutUs extends Component {
               src='anuj-shah.jpeg'
               alt='Anuj Shah'
             />
-            <Typography variant='title'>Anuj Shah</Typography>
+            <a
+              href="https://www.linkedin.com/in/anujshah333/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Typography variant='title'>Anuj Shah</Typography>
+            </a>
             <Typography variant='subheading'>Software Engineer</Typography>
           </Grid>
           <Grid item xs={12} sm={6} md={4}>
@@ -107,8 +131,14 @@ class AboutUs extends Component {
               src='david-rhodus.jpeg'
               alt='David Rhodus'
             />
-            <Typography variant='title'>David Rhodus</Typography>
-            <Typography variant='subheading'>Technology Evangelist</Typography>
+            <a
+              href="https://www.linkedin.com/in/davidrhodus/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Typography variant='title'>David Rhodus</Typography>
+            </a>
+            <Typography variant='subheading'>Developer Evangelist</Typography>
           </Grid>
           <Grid item xs={12} sm={6} md={4}>
             <img
@@ -116,8 +146,14 @@ class AboutUs extends Component {
               src='anthony-albertorio.jpeg'
               alt='Anthony Albertorio'
             />
-            <Typography variant='title'>Anthony Albertorio</Typography>
-            <Typography variant='subheading'>Community Manager</Typography>
+            <a
+              href="https://www.linkedin.com/in/anthonyalbertorio/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Typography variant='title'>Anthony Albertorio</Typography>
+            </a>
+            <Typography variant='subheading'>Community Curator</Typography>
           </Grid>
           <Grid item xs={12} sm={6} md={4}>
             <img
@@ -125,7 +161,13 @@ class AboutUs extends Component {
               src='vicente-rotman.jpeg'
               alt='Vicente Rotman'
             />
-            <Typography variant='title'>Vicente Rotman</Typography>
+            <a
+              href="https://www.linkedin.com/in/vicente-rotman-h-0379233a/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Typography variant='title'>Vicente Rotman</Typography>
+            </a>
             <Typography variant='subheading'>Engineering Intern</Typography>
           </Grid>
         </Grid>
