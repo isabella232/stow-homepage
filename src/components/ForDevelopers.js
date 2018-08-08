@@ -27,7 +27,7 @@ class ForDevelopers extends Component {
         <Grid item xs={12} container md={8}>
           <Grid item xs={12}>
             <Typography variant='body1' className={`${classes.copy} ${classes.subheading}`}>
-              Taking the jump to be a blockchain developer can be intimidating, and, quite frankly, painful. The Linnia Protocol makes build on top of the blockchain easy!
+              Taking the jump to be a blockchain developer can be intimidating. The Linnia Protocol makes building on the blockchain easy!
             </Typography>
           </Grid>
           <Grid item xs={12} sm={6}>
@@ -59,7 +59,7 @@ class ForDevelopers extends Component {
               SWIM IN A BIG POND
             </Typography>
             <Typography variant='body1' className={classes.copy}>
-              Developer at scale immediately. All of Linnia's users are your users. All of their record's (but not their contents) are at your disposal.
+              Develop at scale immediately. All of Linnia's users are your users.
             </Typography>
           </Grid>
         </Grid>

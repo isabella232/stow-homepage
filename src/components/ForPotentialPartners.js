@@ -41,13 +41,13 @@ class ForPotentialPartners extends Component {
             Partners
           </Typography>
           <Typography variant='body1' className={classes.body}>
-            Does your organization want to take the leap into web 3.0? We should work together! Please don't hesitate to reach out and we can start a dialog.
+            Does your organization want to take the leap into web 3.0? Let's work together! Please reach out and we can build the decentralized future together.
           </Typography>
         </CardContent>
         <CardActions className={classes.actions}>
           <a href="mailto:evin.mcmullen@consensys.net">
             <Button className={classes.button}>
-              Work with Us
+              Say Hello
             </Button>
           </a>
         </CardActions>

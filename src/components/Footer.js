@@ -62,19 +62,39 @@ class Footer extends Component {
           © 2018 ConsenSys, AG
         </Typography>
         <div className={classes.buttonBar}>
-          <a href="https://twitter.com/linniaproject">
+          <a
+            href="https://twitter.com/linniaproject"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <TwitterLogo classes={{ root: classes.icon }} />
           </a>
-          <a href="https://github.com/ConsenSys/linnia-smart-contracts">
+          <a
+            href="https://github.com/ConsenSys/linnia-smart-contracts"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <GithubLogo classes={{ root: classes.icon }} />
           </a>
-          <a href="https://www.instagram.com/linniaproject">
+          <a
+            href="https://www.instagram.com/linniaproject"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <InstagramLogo classes={{ root: classes.icon }} />
           </a>
-          <a href="t.me/NYCBlockchainDevs">
+          <a
+            href="t.me/NYCBlockchainDevs"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <TelegramLogo classes={{ root: classes.icon }} />
           </a>
-          <a href="https://www.reddit.com/r/Linnia/">
+          <a
+            href="https://www.reddit.com/r/Linnia/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <RedditLogo classes={{ root: classes.icon }} />
           </a>
         </div>

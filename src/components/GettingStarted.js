@@ -79,7 +79,7 @@ class GettingStarted extends Component {
                   LINNIA NODE
                 </Typography>
                 <Typography variant='body1'>
-                  Linnia Node is a NodeJS server that captures all of the records and permissions stored in the Linnia and allows you to query them.
+                  Linnia Node is a NodeJS server that captures all of the records and permissions stored with Linnia and allows you to query them.
                 </Typography>
                 <a href="https://github.com/ConsenSys/linnia-server">
                   <Button className={classes.ctaButton}>
