@@ -113,7 +113,7 @@ class AboutUs extends Component {
           <Grid item xs={12} sm={6} md={4}>
             <img
               className={classes.profilePicture}
-              src='anthony-albertorio.jpeg'
+              src='anthony-albertorio.png'
               alt='Anthony Albertorio'
             />
             <Typography variant='title'>Anthony Albertorio</Typography>
