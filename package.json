@@ -2,7 +2,7 @@
   "name": "linnia-homepage",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://consensys.github.io/linnia-homepage/",
+  "homepage": "https://linnia.com",
   "dependencies": {
     "@material-ui/core": "^1.4.2",
     "@material-ui/icons": "^2.0.0",

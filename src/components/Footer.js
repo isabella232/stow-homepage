@@ -70,7 +70,7 @@ class Footer extends Component {
             <TwitterLogo classes={{ root: classes.icon }} />
           </a>
           <a
-            href="https://github.com/ConsenSys/linnia-smart-contracts"
+            href="https://github.com/ConsenSys/linnia-resources"
             target="_blank"
             rel="noopener noreferrer"
           >
