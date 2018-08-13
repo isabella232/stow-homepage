@@ -2,6 +2,13 @@ import React, { Component } from 'react';
 import { withStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
+import EvinMcMullen from './../assets/images/evin-mcmullen.png';
+import GodfreyHobbs from './../assets/images/godfrey-hobbs.jpeg';
+import MaxBlaushild from './../assets/images/max-blaushild.jpg';
+import AnujShah from './../assets/images/anuj-shah.jpeg';
+import DavidRhodus from './../assets/images/david-rhodus.jpeg';
+import AnthonyAlbertorio from './../assets/images/anthony-albertorio.png';
+import VicenteRotman from './../assets/images/vicente-rotman.jpeg';
 
 const marginBottom = 50;
 
@@ -68,7 +75,7 @@ class AboutUs extends Component {
           <Grid item xs={12} sm={6} md={4}>
             <img
               className={classes.profilePicture}
-              src='evin-mcmullen.png'
+              src={EvinMcMullen}
               alt='Evin McMullen'
             />
             <a
@@ -83,7 +90,7 @@ class AboutUs extends Component {
           <Grid item xs={12} sm={6} md={4}>
             <img
               className={classes.profilePicture}
-              src='godfrey-hobbs.jpeg'
+              src={GodfreyHobbs}
               alt='Godfrey Hobbs'
             />
             <a
@@ -98,7 +105,7 @@ class AboutUs extends Component {
           <Grid item xs={12} sm={6} md={4}>
             <img
               className={classes.profilePicture}
-              src='max-blaushild.jpg'
+              src={MaxBlaushild}
               alt='Max Blaushild'
             />
             <a
@@ -113,7 +120,7 @@ class AboutUs extends Component {
           <Grid item xs={12} sm={6} md={4}>
             <img
               className={classes.profilePicture}
-              src='anuj-shah.jpeg'
+              src={AnujShah}
               alt='Anuj Shah'
             />
             <a
@@ -128,7 +135,7 @@ class AboutUs extends Component {
           <Grid item xs={12} sm={6} md={4}>
             <img
               className={classes.profilePicture}
-              src='david-rhodus.jpeg'
+              src={DavidRhodus}
               alt='David Rhodus'
             />
             <a
@@ -143,7 +150,7 @@ class AboutUs extends Component {
           <Grid item xs={12} sm={6} md={4}>
             <img
               className={classes.profilePicture}
-              src='anthony-albertorio.png'
+              src={AnthonyAlbertorio}
               alt='Anthony Albertorio'
             />
             <a
@@ -158,7 +165,7 @@ class AboutUs extends Component {
           <Grid item xs={12} sm={6} md={4}>
             <img
               className={classes.profilePicture}
-              src='vicente-rotman.jpeg'
+              src={VicenteRotman}
               alt='Vicente Rotman'
             />
             <a
