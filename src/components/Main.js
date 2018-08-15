@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import LinniaLogo from './../images/LinniaLogo';
+import Logo from 'linnia-brand/components/Logo';
 import Home from './Home';
 
 const logoStyle = {
@@ -18,7 +18,7 @@ class Main extends Component {
     return (
       <section>
         <Home />
-        <LinniaLogo style={logoStyle} />
+        <Logo style={logoStyle} />
       </section>
     );
   }

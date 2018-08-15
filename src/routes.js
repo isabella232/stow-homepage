@@ -1,11 +1,11 @@
-import LinniaLogo from './images/LinniaLogo';
+import Logo from 'linnia-brand/components/Logo';
 import React from 'react';
 
 const height = 35;
 const width = 35;
 
 export const homeRoute = {
-  title: <LinniaLogo style={{ height, width }} />,
+  title: <Logo style={{ height, width }} />,
   key: 'home'
 };
 
