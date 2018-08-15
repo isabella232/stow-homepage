@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { withStyles } from '@material-ui/core/styles';
 
 const styles = {
-  root: {}
+  root: {},
 };
 
 class TwitterLogo extends Component {
@@ -15,7 +15,8 @@ class TwitterLogo extends Component {
         viewBox="328 355 335 276"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <path d="
+        <path
+          d="
           M 630, 425
           A 195, 195 0 0 1 331, 600
           A 142, 142 0 0 0 428, 570
@@ -31,7 +32,8 @@ class TwitterLogo extends Component {
           A 117, 117 0 0 0 662, 390
           A  65,  65 0 0 1 630, 425
           Z"
-          fill="#fff"/>
+          fill="#fff"
+        />
       </svg>
     );
   }

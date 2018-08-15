@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { withStyles } from '@material-ui/core/styles';
 
 const styles = {
-  root: {}
+  root: {},
 };
 
 class SlackLogo extends Component {
@@ -39,10 +39,12 @@ class SlackLogo extends Component {
         <path
           d="M210.484 74.706c11.974-3.89 18.527-16.751 14.637-28.727-3.89-11.973-16.752-18.526-28.727-14.636L15.028 90.293C3.842 94.337-2.445 106.422.896 118.022c3.481 12.098 16.332 19.474 28.217 15.613l181.371-58.93"
           fill="#fff"
-        /><path
+        />
+        <path
           d="M52.822 125.933c11.805-3.836 27.025-8.782 43.354-14.086-5.323-16.39-10.273-31.622-14.084-43.352l-43.36 14.092 14.09 43.346"
           fill="#fff"
-        /><path
+        />
+        <path
           d="M144.16 96.256l43.356-14.088a546179.21 546179.21 0 0 0-14.089-43.36L130.07 52.9l14.09 43.356"
           fill="#fff"
         />
@@ -52,4 +54,3 @@ class SlackLogo extends Component {
 }
 
 export default withStyles(styles)(SlackLogo);
-

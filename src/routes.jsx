@@ -1,5 +1,5 @@
-import Logo from 'linnia-brand/components/Logo';
 import React from 'react';
+import Logo from 'linnia-brand/components/Logo';
 
 const height = 35;
 const width = 35;
@@ -11,28 +11,28 @@ export const homeRoute = {
 
 export const gettingStartedRoute = {
   title: 'Getting Started',
-  key: 'getting-started'
+  key: 'getting-started',
 };
 
 export const forDevelopersRoute = {
   title: 'Developers',
-  key: 'for-developers'
+  key: 'for-developers',
 };
 
 export const forUsersRoute = {
   title: 'Users',
-  key: 'for-users'
+  key: 'for-users',
 };
 
 export const forPartnersRoute = {
   title: 'Partners',
-  key: 'for-partners'
+  key: 'for-partners',
 };
 
 export const aboutUsRoute = {
   title: 'About Us',
-  key: 'about-us'
-}
+  key: 'about-us',
+};
 
 const routes = [
   homeRoute,
