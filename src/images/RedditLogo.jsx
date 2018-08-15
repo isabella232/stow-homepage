@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { withStyles } from '@material-ui/core/styles';
 
 const styles = {
-  root: {}
+  root: {},
 };
 
 class RedditLogo extends Component {
