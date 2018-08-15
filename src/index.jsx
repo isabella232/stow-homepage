@@ -3,16 +3,17 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import 'typeface-roboto';
 import CssBaseline from '@material-ui/core/CssBaseline';
-import { MuiThemeProvider } from '@material-ui/core/styles';
 import { BrowserRouter } from 'react-router-dom';
+import Favicon from 'linnia-brand/Favicon';
+import ThemeProvider from 'linnia-brand/ThemeProvider';
 import App from './App';
-import theme from './theme';
 
 ReactDOM.render(<React.Fragment>
   <CssBaseline />
-  <MuiThemeProvider theme={theme}>
+  <Favicon />
+  <ThemeProvider>
     <BrowserRouter>
       <App />
     </BrowserRouter>
-  </MuiThemeProvider>
+  </ThemeProvider>
 </React.Fragment>, document.getElementById('root'));
