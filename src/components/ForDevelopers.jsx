@@ -24,7 +24,7 @@ const ForDevelopers = ({ classes }) => (
     <Grid item xs={12} container md={8}>
       <Grid item xs={12}>
         <Typography variant="body1" className={`${classes.copy} ${classes.subheading}`}>
-          Taking the jump to be a blockchain developer can be intimidating. The Linnia Protocol makes building on the blockchain easy!
+          Taking the jump to be a blockchain developer can be intimidating. The Stow Protocol makes building on the blockchain easy!
         </Typography>
       </Grid>
       <Grid item xs={12} sm={6}>
@@ -32,12 +32,12 @@ const ForDevelopers = ({ classes }) => (
           WRITE SERVERLESS APPS
         </Typography>
         <Typography variant="body1" className={classes.copy}>
-          No need for servers when building on top of Linnia. Authentication is federated to tools like Metamask and Misk and persistence is handled by Ethereum.
+          No need for servers when building on top of Stow. Authentication is federated to tools like Metamask and Misk and persistence is handled by Ethereum.
         </Typography>
       </Grid>
       <Grid item xs={12} sm={6} className={classes.container}>
         <Typography variant="title" className={classes.copy}>
-          EARN LINNIA TOKENS
+          EARN STOW TOKENS
         </Typography>
         <Typography variant="body1" className={classes.copy}>
           Be compensated with cryptocurrency for acting as brokers between data buyers and sellers.
@@ -56,7 +56,7 @@ const ForDevelopers = ({ classes }) => (
           SWIM IN A BIG POND
         </Typography>
         <Typography variant="body1" className={classes.copy}>
-          Develop at scale immediately. All of Linnia's users are your users.
+          Develop at scale immediately. All of Stow's users are your users.
         </Typography>
       </Grid>
     </Grid>

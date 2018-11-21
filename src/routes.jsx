@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from 'linnia-brand/components/Logo';
+import Logo from '@stowprotocol/brand/components/Logo';
 
 const height = 35;
 const width = 35;

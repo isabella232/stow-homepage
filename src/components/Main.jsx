@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from 'linnia-brand/components/Logo';
+import Logo from '@stowprotocol/brand/components/Logo';
 import Home from './Home';
 
 const logoStyle = {
