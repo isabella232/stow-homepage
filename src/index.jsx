@@ -4,8 +4,8 @@ import './index.css';
 import 'typeface-roboto';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import { BrowserRouter } from 'react-router-dom';
-import Favicon from 'linnia-brand/Favicon';
-import ThemeProvider from 'linnia-brand/ThemeProvider';
+import Favicon from '@stowprotocol/brand/Favicon';
+import ThemeProvider from '@stowprotocol/brand/ThemeProvider';
 import App from './App';
 
 ReactDOM.render(<React.Fragment>

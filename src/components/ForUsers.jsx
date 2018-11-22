@@ -24,7 +24,7 @@ const ForUsers = ({ classes }) => (
     <Grid xs={12} item container md={8}>
       <Grid item xs={12}>
         <Typography variant="body1" className={`${classes.copy} ${classes.subheading}`}>
-          Internet users have been trapped and exploited by their service providers for too long! Linnia provides data freedom and independence for all.
+          Internet users have been trapped and exploited by their service providers for too long! Stow provides data freedom and independence for all.
         </Typography>
       </Grid>
       <Grid item xs={12} sm={6}>

@@ -50,9 +50,9 @@ const AboutUs = ({ classes }) => (
     </Grid>
     <Grid item xs={12} md={8}>
       <Typography className={classes.item} variant="title">
-        Linnia provides application developers with the tools to
+        Stow provides application developers with the tools to
         quickly and easily build secure, data-rich decentralized
-        application without prior blockchain knowledge. The Linnia
+        application without prior blockchain knowledge. The Stow
         Protocol also subverts the digital data ownership paradigm
         by giving users ownership of their digital footprint.
       </Typography>
