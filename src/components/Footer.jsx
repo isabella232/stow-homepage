@@ -68,7 +68,7 @@ const Footer = ({ classes }) => (
         <TwitterLogo classes={{ root: classes.icon }} />
       </a>
       <a
-        href="https://github.com/ConsenSys/linnia-resources"
+        href="https://github.com/ConsenSys/stow-resources"
         target="_blank"
         rel="noopener noreferrer"
       >
