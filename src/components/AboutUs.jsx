@@ -87,7 +87,7 @@ const AboutUs = ({ classes }) => (
         >
           <Typography variant="title">Evin McMullen</Typography>
         </a>
-        <Typography variant="subheading">Product Lead</Typography>
+        <Typography variant="subheading">Project Lead</Typography>
       </Grid>
       <Grid item xs={12} sm={6} md={4}>
         <img
