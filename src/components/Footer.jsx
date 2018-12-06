@@ -89,7 +89,7 @@ const Footer = ({ classes }) => (
         <TelegramLogo classes={{ root: classes.icon }} />
       </a>
       <a
-        href="https://www.reddit.com/r/Linnia/"
+        href="https://www.reddit.com/r/Stow_Protocol/"
         target="_blank"
         rel="noopener noreferrer"
       >
