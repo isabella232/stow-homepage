@@ -32,7 +32,7 @@ const ForUsers = ({ classes }) => (
           OWN YOUR DATA
         </Typography>
         <Typography variant="body1" className={classes.copy}>
-          You are the supreme executor of your digital identity with Linna. Not Facebook or Google.
+          You are the supreme executor of your digital identity with the Stow Protocol. Not Facebook or Google.
         </Typography>
       </Grid>
       <Grid item xs={12} sm={6} className={classes.container}>
