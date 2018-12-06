@@ -61,7 +61,7 @@ const Footer = ({ classes }) => (
     </Typography>
     <div className={classes.buttonBar}>
       <a
-        href="https://twitter.com/linniaproject"
+        href="https://twitter.com/StowProtocol"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -75,7 +75,7 @@ const Footer = ({ classes }) => (
         <GithubLogo classes={{ root: classes.icon }} />
       </a>
       <a
-        href="https://www.instagram.com/linniaproject"
+        href="https://www.instagram.com/stow.protocol/"
         target="_blank"
         rel="noopener noreferrer"
       >
