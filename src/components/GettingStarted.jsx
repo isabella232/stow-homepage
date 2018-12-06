@@ -47,7 +47,7 @@ const GettingStarted = ({ classes }) => (
             development environment. It also includes links to all of
             our libraries and components that you can build on.
           </Typography>
-          <a href="https://github.com/ConsenSys/linnia-resources">
+          <a href="http://github.com/consensys/stow-resources">
             <Button className={classes.ctaButton}>
                 Read the Docs
             </Button>
