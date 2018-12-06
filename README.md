@@ -1,6 +1,6 @@
-# Linnia Homepage
+# Stow Homepage
 
-A public facing Linnia Homepage
+A public facing Stow Homepage
 
 ### How it was made
 
